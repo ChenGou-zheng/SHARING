@@ -109,8 +109,11 @@ public class Main {
         System.out.println("日志级别: " + fastHeadshotMaster.logLevel);
     }
 }
+'''
 
-あ:
+
+'''
+java
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -152,8 +155,9 @@ public class Autoaim {
         frame.setVisible(true);
     }
 }
-
-あ:
+'''
+'''
+java
 class Player {
     private float x, y; // 玩家位置
     private float aimX, aimY; // 玩家瞄准的方向
@@ -239,7 +243,9 @@ public class Main {
     }
 }
 
-あ:
+'''
+'''
+java
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
